@@ -1,5 +1,6 @@
-from time import sleep
+def add(a, b):
+    return a + b
 
 
-sleep(60)
-print("Hello World1")
+def test_add():
+    assert add(1, 2) == 3
